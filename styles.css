@@ -23,7 +23,7 @@ a{
 
 .main-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /*flex-direction:column;
     width: 200px; */
 }
@@ -34,4 +34,25 @@ a{
 }
 .image{
     background-color: red;
+}
+
+/* Info-Container Adjustment */
+
+.info-container{
+    text-align: center;
+}
+.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    border: solid blue 1px;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+.container{
+    /* background-color: red; */
+    margin: 20px;
 }
