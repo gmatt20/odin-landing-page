@@ -1,12 +1,17 @@
 html{
     box-sizing: border-box;
 }
-
+body{
+    margin: 0;
+    padding: 0;
+}
 /* Head-Container Adjustment */
 
 .head-container, footer{
     background-color: #1F2937;
     color: white;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 h1, header{
     display: inline;
@@ -40,6 +45,8 @@ a{
 
 .info-container{
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .container-flex{
     display: flex;
@@ -56,3 +63,32 @@ a{
     /* background-color: red; */
     margin: 20px;
 }
+
+/* Quote-Container Adjustment */
+.quote-container{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #E5E7EB;
+}
+strong{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Action-Container Adjustment*/
+.action-container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.inner-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+}
+.sign-up-bt{
+    display: flex;
+    align-items: center;
+}
+
+/* Footer Adjustment */
+
