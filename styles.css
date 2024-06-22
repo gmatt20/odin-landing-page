@@ -10,8 +10,9 @@ body{
 .head-container, footer{
     background-color: #1F2937;
     color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding: 5px 150px 150px 150px;
 }
 h1, header{
     display: inline;
@@ -66,9 +67,11 @@ a{
 
 /* Quote-Container Adjustment */
 .quote-container{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 105px;
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 strong{
     display: flex;
@@ -91,4 +94,9 @@ strong{
 }
 
 /* Footer Adjustment */
+
+footer{
+    background-color:#1F2937;
+    text-align: center;
+}
 
