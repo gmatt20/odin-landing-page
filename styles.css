@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+}
+
+/* Head-Container Adjustment */
+
+.head-container, footer{
+    background-color: #1F2937;
+    color: white;
+}
+h1, header{
+    display: inline;
+}
+nav{
+display: inline-block;
+float: right;
+}
+a{
+    color: white;
+}
+
+/* Info-Container Adjustment */
