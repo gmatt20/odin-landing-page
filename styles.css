@@ -1,3 +1,5 @@
+/* General Styling */
+
 html{
     box-sizing: border-box;
     font-family: roboto, sans-serif;
@@ -6,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 /* Head-Container Adjustment */
 
 
@@ -41,7 +44,6 @@ body{
 }
 .image{
     background-color: gray;
-    /* max-width: 900px; */
     width: 600px;
     height: auto;
     margin-left: 50px;
@@ -100,6 +102,7 @@ body{
 }
 
 /* Quote-Container Adjustment */
+
 .quote-section{
     padding: 105px;
     background-color: #E5E7EB;
@@ -153,4 +156,3 @@ footer{
     padding: 20px;
     font-size: 10px;
 }
-
