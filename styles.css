@@ -8,7 +8,7 @@ body{
 }
 /* Head-Container Adjustment */
 
-.head-container{
+/* .head-container{
     background-color: #1F2937;
     color: white;
     padding: 5px 150px 150px 150px;
@@ -38,7 +38,34 @@ float: right;
 }
 a{
     color: white;
-}
+} */
+.head-container {
+    background-color: #1F2937;
+    color: white;
+    padding: 5px 150px 100px 150px;
+  }
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+header {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+  }
+nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+header > h1{
+    margin-top: 0;
+  }
 
 /* Main-Container Adjustment */
 
@@ -47,6 +74,8 @@ a{
     justify-content: space-between;
 }
 .left-container > h1{
+    margin-bottom: -20px;
+    margin-top: 0;
     font-size: 48px;
     font-weight: bolder;
 }
@@ -55,35 +84,52 @@ a{
     color: #E5E7EB;
 }
 .left-container{
-    display: flex;
-    flex-direction: column;
+    min-width: 500px;
+}
+.init-su{
+    background-color: #3882F6;
+    color: white;
+    border-style: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
 }
 .image{
-    background-color: red;
+    margin-left: 40px;
+    background-color: gray;
+    min-width: 500px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Info-Container Adjustment */
 
 .info-container{
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 20px 50px 100px 50px;
 }
 .container-flex{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .box{
     border: solid #3882F6 5px;
     border-radius: 10px;
     height: 150px;
     width: 150px;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+.subtext{
+    width: 150px;
     margin: auto;
 }
 .container{
     /* background-color: red; */
-    margin: 20px;
+    margin: 10px;
 }
 
 /* Quote-Container Adjustment */
