@@ -96,8 +96,8 @@ header > h1{
 .image{
     margin-left: 40px;
     background-color: gray;
-    min-width: 500px;
-    min-height: 300px;
+    min-width: 300px;
+    max-height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
